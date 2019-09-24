@@ -26,8 +26,11 @@ def take_a_number(array, name)
   # elsif array.empty? == false
 
   #end
+  if array.empty?
   array << name
   puts "Welcome, #{name}. You are number 1 in line."
+else
+end
   
 end
 

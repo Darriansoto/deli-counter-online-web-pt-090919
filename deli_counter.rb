@@ -13,18 +13,18 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  if array.empty? == true 
-    new_array = []
-    counter = 1
-    array.map do |name|
-      new_array.push("#{array}. #{name}")
-      counter += 1
-    end
-    puts "Welcome, #{name}. You are number #{counter} in line."
-    return new_array
-  elsif array.empty? == false
+  # if array.empty? == true 
+  #   new_array = []
+  #   counter = 1
+  #   array.map do |name|
+  #     new_array.push("#{array}. #{name}")
+  #     counter += 1
+  #   end
+  #   puts "Welcome, #{name}. You are number #{counter} in line."
+  #   return new_array
+  # elsif array.empty? == false
 
-  end
+  #end
   
   
 end

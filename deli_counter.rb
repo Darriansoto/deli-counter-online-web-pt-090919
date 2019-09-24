@@ -26,7 +26,8 @@ def take_a_number(array, name)
   # elsif array.empty? == false
 
   #end
-  binding.pry
+  array << name
+  array
   
 end
 

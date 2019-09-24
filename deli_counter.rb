@@ -2,7 +2,7 @@ def line(array)
   if array.size >= 1
     counter = 1 
     new_array = []
-    array.each do |name|
+    array.map do |name|
       new_array.push("#{counter}. #{name}")
       counter += 1
     end

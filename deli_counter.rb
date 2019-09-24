@@ -27,7 +27,7 @@ def take_a_number(array, name)
 
   #end
   array << name
-  "Welcome, #{}"
+  "Welcome, #{name}. You are number 1 in line."
   
 end
 

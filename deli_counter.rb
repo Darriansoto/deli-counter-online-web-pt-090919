@@ -18,7 +18,6 @@ def take_a_number(array, name)
     counter = 1
     array.map do |name|
       new_array.push("#{array}. #{name}")
-      new_array.join(" ")
       counter += 1
     end
     puts "Welcome, #{name}. You are number #{counter} in line."

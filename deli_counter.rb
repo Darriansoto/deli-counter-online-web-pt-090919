@@ -1,3 +1,4 @@
+require "pry"
 def line(array)
   if array.size >= 1
     counter = 1 
@@ -25,7 +26,7 @@ def take_a_number(array, name)
   # elsif array.empty? == false
 
   #end
-  
+  binding.pry
   
 end
 

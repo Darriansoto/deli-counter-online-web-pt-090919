@@ -27,7 +27,7 @@ def take_a_number(array, name)
 
   #end
   array << name
-  array
+  "Welcome, #{}"
   
 end
 

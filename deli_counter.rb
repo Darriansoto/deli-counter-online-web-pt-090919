@@ -17,7 +17,7 @@ def take_a_number(array, name)
     new_array = []
     counter = 1
     array.map do |name|
-      new_array.push("#{name}")
+      new_array.push("#{array}. #{name}")
       counter += 1
     end
     puts "Welcome, #{name}. You are number #{counter} in line."

@@ -17,11 +17,11 @@ def take_a_number(array, name)
     new_array = []
     counter = 1
     array.map_with_index do |name, index|
-      new_array.push("#{array}. #{name}" )
+      new_array.push("#{array}. #{name}")
       counter += 1
     end
     puts "Welcome, #{name}. You are number #{counter} in line."
-    return new_array
+    return 
   elsif array.empty? == false
 
   end

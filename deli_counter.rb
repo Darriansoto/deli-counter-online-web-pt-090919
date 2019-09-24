@@ -16,7 +16,7 @@ def take_a_number(array, name)
   if array.empty? == true 
     new_array = []
     counter = 1
-    array.map_with_index do |name|
+    array.map do |name|
       new_array.push("#{name}")
       counter += 1
     end

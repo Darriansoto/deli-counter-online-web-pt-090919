@@ -21,7 +21,7 @@ def take_a_number(array, name)
        new_array.push("#{array}. #{name}")
        counter += 1
      end
-     puts "Welcome, #{name}. You are number #{array.length} in line."
+     puts "Welcome, #{name}. You are number #{array.length + 1} in line."
   elsif array.empty? == false
 
   end

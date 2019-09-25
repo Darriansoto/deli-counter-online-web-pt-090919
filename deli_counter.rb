@@ -22,7 +22,6 @@ def take_a_number(array, name)
        counter += 1
      end
      puts "Welcome, #{name}. You are number #{array.length} in line."
-     return new_array
   elsif array.empty? == false
 
   end

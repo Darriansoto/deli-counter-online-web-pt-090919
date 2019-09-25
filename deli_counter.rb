@@ -1,4 +1,3 @@
-require "pry"
 def line(array)
   if array.size >= 1
     counter = 1 

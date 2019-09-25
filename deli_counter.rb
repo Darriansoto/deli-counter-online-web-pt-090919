@@ -26,8 +26,8 @@ end
 
 def now_serving(array)
   if array.empty?
-    
+    uts "There is nobody waiting to be served!"
   else
-    puts "There is nobody waiting to be served!"
+    p
   end
 end

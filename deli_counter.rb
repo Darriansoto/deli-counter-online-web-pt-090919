@@ -14,25 +14,26 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  # if array.empty? == true 
-  #   new_array = []
-  #   counter = 1
-  #   array.map do |name|
-  #     new_array.push("#{array}. #{name}")
-  #     counter += 1
-  #   end
-  #   puts "Welcome, #{name}. You are number #{counter} in line."
-  #   return new_array
-  # elsif array.empty? == false
+   if array.empty? == true 
+     new_array = []
+     counter = 1
+     array.map do |name|
+       new_array.push("#{array}. #{name}")
+       counter += 1
+     end
+     puts "Welcome, #{name}. You are number #{counter} in line."
+     return new_array
+  elsif array.empty? == false
 
-  #end
-  if array.empty?
-    array << name
-    puts "Welcome, #{name}. You are number 1 in line."
-  else
-    array << name
-    puts "Welcome, #{name}. You are number #{array.length} in line."
   end
+  
+  # if array.empty?
+  #   array << name
+  #   puts "Welcome, #{name}. You are number 1 in line."
+  # else
+  #   array << name
+  #   puts "Welcome, #{name}. You are number #{array.length} in line."
+  # end
   
 end
 

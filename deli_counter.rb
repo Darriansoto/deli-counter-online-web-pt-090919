@@ -14,7 +14,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
-   if array.empty? == true 
+   if array.empty? 
      new_array = []
      counter = 1
      array.map do |name|
